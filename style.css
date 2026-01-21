@@ -72,6 +72,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
+
 }
 
 .text {
@@ -408,6 +409,9 @@ svg {
     padding: 10px;
 }
 
+.text {
+    color: yellow;
+}
 
 .elementor-post__card h2 {
     font-size: 18px;
