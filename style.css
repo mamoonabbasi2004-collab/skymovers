@@ -860,4 +860,54 @@ ol.list-style {
         display: grid;
         grid-template-columns: 100%;
     }
+
+    .menu {
+        color: white;
+        background: #112f4a;
+        position: absolute;
+        width: 100%;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .header2 .flex,
+    .header1 .flex {
+        flex-direction: row;
+    }
+
+    .form_txt {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        padding: 10px 0;
+        margin-bottom: 5px;
+    }
+
+    .element-divider ul {
+        padding: 0;
+    }
+
+    a.elementor-post__read-more {
+        padding: 10px;
+    }
+
+    .scroll-grid div {
+        width: 100% !important;
+        font-size: 20px !important;
+        padding: 10px 0 !important;
+        margin-bottom: 0 !important;
+
+    }
+
+    .title-footer {
+        gap: 20px
+    }
 }
