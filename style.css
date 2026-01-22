@@ -260,7 +260,7 @@ h2.rw-div {
 .elementor-background-overlay {
     color: #fff;
     background-color: #021b2a;
-    opacity: .6;
+
 
 }
 
@@ -625,6 +625,7 @@ span.elementor-post-date {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    width: 100%;
 
 }
 
@@ -658,8 +659,8 @@ span.elementor-post-date {
     text-decoration: none;
 }
 
-.about-moving {
-    width: 33%;
+.process {
+    width: 100%;
 }
 
 .title-footer {
@@ -668,12 +669,9 @@ span.elementor-post-date {
 }
 
 .links {
-    width: 33%;
+    width: 100%;
 }
 
-.contact {
-    width: 33%;
-}
 
 .links ul {
     list-style: none;
@@ -687,6 +685,12 @@ ol.list-style {
 .accordion {
     text-align: center;
     font-size: 16px;
+}
+
+.additionalprocess,
+.element-divider {
+    width: 50%;
+    color: white;
 }
 
 @media(max-width:786px) {
