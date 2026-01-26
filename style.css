@@ -5,18 +5,15 @@
     margin: 0 auto;
     color: black;
 }
-
 .header1 {
     background-color: #021b2a;
     padding: 10px;
 }
-
 .flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .phone,
 .area,
 .search {
@@ -924,6 +921,7 @@ ol.list-style {
         gap: 20px
     }
 
+<<<<<<< HEAD
     .mobilem {
         display: block;
     }
@@ -932,3 +930,6 @@ ol.list-style {
         display: none;
     }
 }
+=======
+}
+>>>>>>> 9cde72c3fccd490487202eeb95a26707418d38b4
