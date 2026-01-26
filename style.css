@@ -42,7 +42,8 @@
     margin: 0 auto;
 }
 
-.menu ul {
+.menu ul,
+.desktop_menu ul {
 
     display: flex;
     gap: 20px;
@@ -51,7 +52,8 @@
     justify-content: flex-end;
 }
 
-.menu ul a {
+.menu ul a,
+.desktop_menu ul a {
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -484,7 +486,7 @@ a.elementor-post__read-more {
 
 span.elementor-post-date {
     color: #adadad;
-    font-size: 12px;
+    font-size: 17px;
     line-height: 1.3em;
     margin-bottom: 13px;
     border-top: 1px solid #adadad;
@@ -693,6 +695,10 @@ ol.list-style {
     color: white;
 }
 
+.mobilem {
+    display: none;
+}
+
 @media(max-width:786px) {
     .hero_section {
         padding: 20px;
@@ -703,6 +709,10 @@ ol.list-style {
         max-width: 100%;
         overflow: hidden;
 
+    }
+
+    .desktop_menu {
+        display: none;
     }
 
     .flex {
@@ -740,10 +750,12 @@ ol.list-style {
 
     .PrO-SECTION img {
         height: 400px;
+        padding: 0px;
     }
 
     .elementor-post__card h2 {
         font-size: 45px;
+        text-align: left;
     }
 
     .elementor-post__card img {
@@ -834,7 +846,8 @@ ol.list-style {
 
     .elementor-post__card p {
         width: 100%;
-        font-size: 9px;
+        font-size: 17px;
+        text-align: left;
     }
 
     .form {
@@ -909,5 +922,13 @@ ol.list-style {
 
     .title-footer {
         gap: 20px
+    }
+
+    .mobilem {
+        display: block;
+    }
+
+    .desktop_menum ul {
+        display: none;
     }
 }
