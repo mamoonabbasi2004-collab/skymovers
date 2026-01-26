@@ -5,18 +5,15 @@
     margin: 0 auto;
     color: black;
 }
-
 .header1 {
     background-color: #021b2a;
     padding: 10px;
 }
-
 .flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .phone,
 .area,
 .search {
@@ -910,4 +907,5 @@ ol.list-style {
     .title-footer {
         gap: 20px
     }
+
 }
